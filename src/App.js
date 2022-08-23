@@ -8,15 +8,24 @@ import {useEffect, useState} from "react";
 import fire from "./fire";
 import Hero from "./Hero"
 import Login from "./Login";
+import './pages/designs/main.scss'
+import './pages/designs/actors.scss'
+import './pages/designs/genres.scss'
+import './pages/designs/movies.scss'
+import './pages/designs/navbar.scss'
+
 
 
 const App = () => {
+    
     const [user, setUser] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [emailError, setEmailError] = useState("");
     const [passwordError, setPasswordError] = useState("");
     const [hasAccount, setHasAccount] = useState(false);
+
+    
 
     const clearInputs = () => {
         setEmail("");
@@ -88,6 +97,8 @@ const App = () => {
     useEffect (() => {
         authListener();
     }, [])
+
+
 //kopmonent render bulishidan oldin iwled
 
 return (

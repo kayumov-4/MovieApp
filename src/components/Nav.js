@@ -4,7 +4,7 @@ import Search from "../images/search.svg";
 import Notification from "../images/notification.svg";
 import Profile from "../images/profile.svg";
 import { motion } from "framer-motion";
-
+import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
   return (
         <>
@@ -23,12 +23,12 @@ const Navbar = () => {
                     transition={{type: 'spring', delay: 0.5}}
                 >
                     <div className="span_nav">
-                        <a href="#" className="active">Home</a>
+                        <Link to="/" className="active">Home</Link>
                         <div className="underline"></div>
                     </div>
-                    <a href="#shows">TV Shows</a>
-                    <a href="#movies">Movies</a>
-                    <a  href="#">Series</a>
+                    <Link to="/shows">TV Shows</Link>
+                    <Link to="/movies">Movies</Link>
+                    <Link to="/series">Series</Link>
                 </motion.div>
                 <motion.div className="nav_right"
                     initial={{x: "100vw"}}
@@ -41,6 +41,7 @@ const Navbar = () => {
                 </motion.div>
             </div>
         </div>
+        <Outlet />
     </>
   )
 }

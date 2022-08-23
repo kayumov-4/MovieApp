@@ -1,661 +1,149 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;500;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;500;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap");
-* {
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-// Navbar
-
-.navbar {
-  height: 100px;
-  background: #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  position: fixed;
-  .nav_container {
-    padding-top: 10px;
-    width: 1680px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    a {
-      text-decoration: none;
-      font-family: "Mulish";
-      font-style: normal;
-      font-weight: 800;
-      font-size: 16px;
-      line-height: 20px;
-      text-align: center;
-      color: #ffffff;
-      padding-left: 54px;
+    @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;500;800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;500;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap");
+    * {
+        margin: 0 auto;
+        box-sizing: border-box;
     }
-    .nav_center {
-      display: flex;
-      .span_nav {
-        .underline {
-          width: 46px;
-          height: 2px;
-          background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-          border-radius: 50px;
-          margin-left: 54px;
+    
+    //Footer Page
+    .footer {
+        height: 280px;
+        background: #101012;
+        .footer_container {
+            max-width: 1440px;
+            .footer_div {
+                justify-content: space-between;
+                display: flex;
+                align-items: center;
+                a {
+                    margin-top: 70px;
+                    text-decoration: none;
+                    font-family: "Mulish";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #c2c2c2;
+                }
+            }
         }
-      }
     }
-    .nav_right {
-      a {
-        margin-right: 25px;
-      }
-    }
-  }
-}
-
-//Main Page
-
-.main {
-  background: #000000;
-  .main_container {
-    display: flex;
-    height: 765px;
-    .main_left {
-      padding-top: 120px;
-      width: 700px;
-      padding-left: 84px;
-      .main_p {
-        p {
-          margin-top: 122px;
-          font-family: "Marcellus";
-          font-style: normal;
-          font-weight: normal;
-          font-size: 80px;
-          line-height: 70px;
-          color: #ffffff;
-        }
-      }
-      .main_rating {
-        align-items: center;
-        padding-top: 39px;
-        display: flex;
-        float: left;
-        p {
-          margin-right: 33px;
-          font-family: "Mulish";
-          font-style: normal;
-          font-weight: 800;
-          font-size: 16px;
-          line-height: 10px;
-          color: #ffffff;
-        }
-        img {
-          margin-left: -20px;
-        }
-      }
-      .main_info {
-        padding-top: 32px;
-        p {
-          font-family: "Mulish";
-          font-style: normal;
-          font-weight: normal;
-          font-size: 18px;
-          line-height: 28px;
-          color: #c2c2c2;
-        }
-      }
-      .main_btns {
-        float: left;
-        padding-top: 35px;
-        display: flex;
-        .play {
-          align-items: center;
-          justify-content: center;
-          text-decoration: none;
-          display: flex;
-          font-family: "Mulish";
-          font-style: normal;
-          font-weight: 800;
-          font-size: 16px;
-          line-height: 20px;
-          color: #ffffff;
-          width: 141px;
-          height: 50px;
-          background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-          box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
-          border-radius: 100px;
-        }
-      }
-      .more {
-        margin-left: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        font-family: "Mulish";
-        font-style: normal;
-        font-weight: 800;
+    
+    //Login Page
+    button {
+        font-family: "Nunito", sans-serif;
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 15px 0;
+        color: #fff;
         font-size: 16px;
-        line-height: 20px;
-        color: #323232;
-        width: 195px;
-        height: 50px;
-        background: #ffffff;
-        border-radius: 100px;
-      }
+        letter-spacing: 1px;
+        background: #603bbb;
+        cursor: pointer;
     }
-    .main_right {
-      img {
-        object-fit: cover;
-        width: 1000px;
-        height: 765px;
-      }
-    }
-  }
-}
-
-//Movies Page
-
-.movies {
-  background: #000000;
-  height: 2100px;
-  .movies_container {
-    width: 1440px;
-    .movies_top_1 {
-      .m_info_1 {
-        padding-top: 71px;
-        padding-bottom: 47px;
-        a {
-          text-decoration: none;
-          font-family: "Mulish";
-          font-style: normal;
-          font-weight: bold;
-          font-size: 28px;
-          line-height: 20px;
-          color: #ffffff;
-        }
-      }
-    }
-    .movies_bottom_1 {
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      display: flex;
-      img {
-        border-radius: 20px;
-      }
-      a:hover {
-        transform: scale(1.2);
-        transition-duration: 1s;
-        box-shadow: 10;
-      }
-    }
-
-    .movies_top_2 {
-      .m_info_2 {
-        padding-top: 71px;
-        padding-bottom: 47px;
-        a {
-          text-decoration: none;
-          font-family: "Mulish";
-          font-style: normal;
-          font-weight: bold;
-          font-size: 28px;
-          line-height: 20px;
-          color: #ffffff;
-        }
-      }
-    }
-    .movies_bottom_2 {
-      justify-content: space-between;
-      display: flex;
-      img {
-        border-radius: 20px;
-      }
-      a:hover {
-        transform: scale(1.2);
-        transition-duration: 1s;
-        box-shadow: 10;
-      }
-    }
-    .movies_footer {
-      margin-right: 90%;
-      display: flex;
-      padding-top: 55px;
-      .footer_sub {
+    
+    .login {
+        font-family: "Nunito", sans-serif;
+        width: 100%;
+        min-height: 100vh;
+        padding: 0 20px;
+        background: #e9e9e9;
         display: flex;
+    }
+    
+    .login .loginContainer {
+        font-family: "Nunito", sans-serif;
+        padding: 60px;
+        margin: auto;
+        width: 100%;
+        max-width: 520px;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        font-family: "Mulish";
-        font-style: normal;
-        font-weight: 800;
+        background: radial-gradient( ellipse at left bottom, rgba(22, 24, 47, 1) 0%, rgba(38, 20, 72, 0.9) 59%, rgba(17, 27, 75, 0.9) 100%);
+        box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+    }
+    
+    .login .loginContainer label {
+        font-family: "Nunito", sans-serif;
+        color: white;
+        margin: 14px 0;
+        display: block;
+        font-size: 22px;
+        line-height: 1;
+    }
+    
+    .login .loginContainer input {
+        font-family: "Nunito", sans-serif;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 19px;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    
+    .login .loginContainer .btnContainer {
+        width: 100%;
+        padding: 24px 0;
+    }
+    
+    .login .loginContainer .btnContainer p {
+        font-family: "Nunito", sans-serif;
+        margin: 14px 0 0 0;
+        text-align: right;
+        color: #fff;
+    }
+    
+    .login .loginContainer .btnContainer p span {
+        font-family: "Nunito", sans-serif;
+        color: yellow;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-left: 5px;
+        cursor: pointer;
+        transition: all 400ms ease-in-out;
+    }
+    
+    .login .loginContainer .btnContainer p span:hover {
+        font-family: "Nunito", sans-serif;
+        color: red;
+    }
+    
+    .login .loginContainer .errorMsg {
+        font-family: "Nunito", sans-serif;
+        color: red;
         font-size: 16px;
-        color: #ffffff;
-        width: 141px;
-        height: 50px;
+    }
+    
+    //Log Out Page
+    .hero {
+        font-family: "Nunito", sans-serif;
+        width: 100%;
+        background: radial-gradient( ellipse at left bottom, rgba(22, 24, 47, 1) 0%, rgba(38, 20, 72, 0.9) 59%, rgba(17, 27, 75, 0.9) 100%);
+    }
+    
+    .hero nav {
+        background: #000000;
+        width: 100%;
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .hero nav h2 {
+        font-family: "Nunito", sans-serif;
+        color: #fff;
+    }
+    
+    .hero nav button {
+        width: 86px;
+        padding: 8px 0;
         background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-        box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
-        border-radius: 100px;
-      }
     }
-
-    //Genres Page
-
-    .genres {
-      .genres_txt {
-        padding-bottom: 47px;
-        margin-top: 108px;
-        a {
-          text-decoration: none;
-          font-family: "Mulish";
-          font-style: normal;
-          font-weight: bold;
-          font-size: 28px;
-          line-height: 20px;
-          color: #ffffff;
-        }
-      }
-      .film_genres_1 {
-        display: flex;
-        justify-content: space-between;
-        .film_genre1 {
-          background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre1:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-        .film_genre2 {
-          background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre2:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-        .film_genre3 {
-          background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre3:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-        .film_genre4 {
-          background: linear-gradient(
-            109.31deg,
-            #fd093f 2.4%,
-            #fb1378 2.41%,
-            #fccb1a 100%
-          );
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre4:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-      }
-
-      .film_genres_2 {
-        margin-top: 30px;
-        display: flex;
-        justify-content: space-between;
-        .film_genre5 {
-          background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre5:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-        .film_genre6 {
-          background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-        }
-        .film_genre6:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-        .film_genre7 {
-          background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre7:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-        .film_genre8 {
-          background: linear-gradient(
-            109.31deg,
-            #1fa2ff 2.4%,
-            #1fa2ff 2.41%,
-            #1f535c 97.46%
-          );
-          border-radius: 20px;
-          width: 340px;
-          height: 198px;
-          a {
-            padding-top: 45px;
-            display: flex;
-          }
-          p {
-            margin-top: 8px;
-            font-family: "Mulish";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
-            text-align: center;
-            color: #ffffff;
-          }
-        }
-        .film_genre8:hover {
-          transform: scale(1.1);
-          transition-duration: 1s;
-          box-shadow: 10;
-        }
-      }
-
-      // Actors Page
-
-      .actors {
-        .actors_container {
-          max-width: 1440px;
-          .actors_txt {
-            margin-bottom: 45px;
-            margin-top: 78px;
-            a {
-              text-decoration: none;
-              font-family: "Mulish";
-              font-style: normal;
-              font-weight: bold;
-              font-size: 28px;
-              line-height: 20px;
-              color: #ffffff;
-            }
-          }
-          .actors_img {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            p {
-              padding-bottom: 100px;
-              margin-top: 15px;
-              font-family: "Mulish";
-              font-style: normal;
-              font-weight: bold;
-              font-size: 18px;
-              line-height: 20px;
-              text-align: center;
-              color: #ffffff;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-//Footer Page
-
-.footer {
-  height: 280px;
-  background: #101012;
-  .footer_container {
-    max-width: 1440px;
-    .footer_div {
-      justify-content: space-between;
-      display: flex;
-      align-items: center;
-      a {
-        margin-top: 70px;
-        text-decoration: none;
-        font-family: "Mulish";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 30px;
-        color: #c2c2c2;
-      }
-    }
-  }
-}
-
-//Login Page
-
-button {
-  font-family: "Nunito", sans-serif;
-  border: none;
-  outline: none;
-  width: 100%;
-  padding: 15px 0;
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 1px;
-  background: #603bbb;
-  cursor: pointer;
-}
-
-.login {
-  font-family: "Nunito", sans-serif;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 20px;
-  background: #e9e9e9;
-  display: flex;
-}
-
-.login .loginContainer {
-  font-family: "Nunito", sans-serif;
-  padding: 60px;
-  margin: auto;
-  width: 100%;
-  max-width: 520px;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: radial-gradient(
-    ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
-    rgba(38, 20, 72, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
-  );
-  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
-}
-
-.login .loginContainer label {
-  font-family: "Nunito", sans-serif;
-  color: white;
-  margin: 14px 0;
-  display: block;
-  font-size: 22px;
-  line-height: 1;
-}
-
-.login .loginContainer input {
-  font-family: "Nunito", sans-serif;
-  width: 100%;
-  border: none;
-  outline: none;
-  font-size: 19px;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.login .loginContainer .btnContainer {
-  width: 100%;
-  padding: 24px 0;
-}
-
-.login .loginContainer .btnContainer p {
-  font-family: "Nunito", sans-serif;
-  margin: 14px 0 0 0;
-  text-align: right;
-  color: #fff;
-}
-
-.login .loginContainer .btnContainer p span {
-  font-family: "Nunito", sans-serif;
-  color: yellow;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  margin-left: 5px;
-  cursor: pointer;
-  transition: all 400ms ease-in-out;
-}
-
-.login .loginContainer .btnContainer p span:hover {
-  font-family: "Nunito", sans-serif;
-  color: red;
-}
-
-.login .loginContainer .errorMsg {
-  font-family: "Nunito", sans-serif;
-  color: red;
-  font-size: 16px;
-}
-
-//Log Out Page
-
-.hero {
-  font-family: "Nunito", sans-serif;
-  width: 100%;
-  background: radial-gradient(
-    ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
-    rgba(38, 20, 72, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
-  );
-}
-
-.hero nav {
-  background: #000000;
-  width: 100%;
-  padding: 20px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.hero nav h2 {
-  font-family: "Nunito", sans-serif;
-  color: #fff;
-}
-
-.hero nav button {
-  width: 86px;
-  padding: 8px 0;
-  background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-}

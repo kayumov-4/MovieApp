@@ -1,0 +1,215 @@
+//Genres Page
+.genres {
+    .genres_txt {
+        padding-bottom: 47px;
+        margin-top: 108px;
+        a {
+            text-decoration: none;
+            font-family: "Mulish";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 20px;
+            color: #ffffff;
+        }
+    }
+    .film_genres_1 {
+        display: flex;
+        justify-content: space-between;
+        .film_genre1 {
+            background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre1:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+        .film_genre2 {
+            background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre2:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+        .film_genre3 {
+            background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre3:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+        .film_genre4 {
+            background: linear-gradient( 109.31deg, #fd093f 2.4%, #fb1378 2.41%, #fccb1a 100%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre4:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+    }
+    .film_genres_2 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        .film_genre5 {
+            background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre5:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+        .film_genre6 {
+            background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+        }
+        .film_genre6:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+        .film_genre7 {
+            background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre7:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+        .film_genre8 {
+            background: linear-gradient( 109.31deg, #1fa2ff 2.4%, #1fa2ff 2.41%, #1f535c 97.46%);
+            border-radius: 20px;
+            width: 340px;
+            height: 198px;
+            a {
+                padding-top: 45px;
+                display: flex;
+            }
+            p {
+                margin-top: 8px;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 20px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+        .film_genre8:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            box-shadow: 10;
+        }
+    }
+}

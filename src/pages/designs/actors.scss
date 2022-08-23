@@ -1,0 +1,35 @@
+    // Actors Page
+    .actors {
+        .actors_container {
+            max-width: 1440px;
+            .actors_txt {
+                margin-bottom: 45px;
+                margin-top: 78px;
+                a {
+                    text-decoration: none;
+                    font-family: "Mulish";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+            .actors_img {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                p {
+                    padding-bottom: 100px;
+                    margin-top: 15px;
+                    font-family: "Mulish";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+        }
+    }

@@ -1,0 +1,84 @@
+//Movies Page
+.movies {
+    background: #000000;
+    height: 2100px;
+    .movies_container {
+        width: 1440px;
+        .movies_top_1 {
+            .m_info_1 {
+                padding-top: 71px;
+                padding-bottom: 47px;
+                a {
+                    text-decoration: none;
+                    font-family: "Mulish";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+        }
+        .movies_bottom_1 {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            display: flex;
+            img {
+                border-radius: 20px;
+            }
+            a:hover {
+                transform: scale(1.2);
+                transition-duration: 1.5s;
+                box-shadow: 10;
+            }
+        }
+        .movies_top_2 {
+            .m_info_2 {
+                padding-top: 71px;
+                padding-bottom: 47px;
+                a {
+                    text-decoration: none;
+                    font-family: "Mulish";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    line-height: 20px;
+                    color: #ffffff;
+                }
+            }
+        }
+        .movies_bottom_2 {
+            justify-content: space-between;
+            display: flex;
+            img {
+                border-radius: 20px;
+            }
+            a:hover {
+                transform: scale(1.2);
+                transition-duration: 1.5s;
+                box-shadow: 10;
+            }
+        }
+        .movies_footer {
+            margin-right: 90%;
+            display: flex;
+            padding-top: 55px;
+            .footer_sub {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                color: #ffffff;
+                width: 141px;
+                height: 50px;
+                background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+                box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+                border-radius: 100px;
+            }
+        }
+    }
+}
